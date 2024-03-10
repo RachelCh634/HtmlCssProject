@@ -1,0 +1,1231 @@
+#front-page {
+    direction: rtl;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.link2 {
+    color: white;
+}
+
+.link1 {
+    color: black;
+}
+
+#top-nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0px;
+    font-size: 68%;
+    justify-content: center;
+    height: 90px;
+    align-items: center;
+    z-index: 5;
+
+}
+
+#top-nav img {
+    width: 13%;
+    height: 9%;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid {
+    flex-wrap: nowrap;
+    display: flex;
+    width: 82%;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2%;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.left {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    height: 10px;
+}
+
+select {
+    font-size: 20px;
+    color: steelblue;
+    width: 75%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    border-radius: 10%;
+    margin-right: 17%;
+    border-color: steelblue;
+    border-style: solid;
+}
+
+#icon1 {
+    color: black;
+    border-radius: 20%;
+    border-style: groove;
+    border-color: gray;
+    border-width: thin;
+    padding: 0.5pc;
+    margin-left: 35px;
+}
+
+#icon1:hover {
+    background-color: rgb(211, 207, 207);
+}
+
+#agree {
+    color: black;
+}
+
+#join2 {
+    background-color: #dc3545;
+    border-radius: 90px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 78%;
+    text-align: center;
+    font-weight: bolder;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#home-part1 {
+    background-image: url(./assets/הורדה\ \(10\).jpg);
+    /* width: 100%; */
+    animation-name: home-part1;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-duration: 18s;
+    padding-top: 13%;
+}
+
+@keyframes home-part1 {
+    0% {
+        background-image: url(./assets/הורדה\ \(10\).jpg);
+    }
+
+    20% {
+        background-image: url(./assets/הורדה\ \(10\).jpg);
+    }
+
+    30% {
+        background-image: url(./assets/הורדה\ \(8\).jpg);
+    }
+
+    50% {
+        background-image: url(./assets/הורדה\ \(8\).jpg);
+    }
+
+    60% {
+        background-image: url(./assets/הורדה\ \(9\).jpg);
+    }
+
+    90% {
+        background-image: url(./assets/הורדה\ \(9\).jpg);
+    }
+
+    100% {
+        background-image: url(./assets/הורדה\ \(10\).jpg);
+    }
+}
+
+
+#home-part1-a {
+    margin-right: 60%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+}
+
+#join {
+    background-color: rgb(90, 82, 82);
+    color: white;
+    border-radius: 20px;
+    font-size: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+#come {
+    background-color: #dc3545;
+    border-radius: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70%;
+    width: 270px;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#application {
+    background-color: rgb(88, 87, 87);
+    border-radius: 20px;
+    color: white;
+    font-size: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 270px;
+    height: 40px;
+    text-align: center;
+    margin-top: 5px;
+    direction: ltr;
+    line-height: 140%;
+}
+
+.home-part1-b {
+    margin-right: 30%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#home-part1-img-text {
+    color: white;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home-part1-img {
+    width: 80%;
+}
+
+
+#home-title-a {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5%;
+    color: rgb(75, 71, 71);
+}
+
+#home-title-c {
+    text-align: center;
+    font-size: 40px;
+    color: brown;
+    padding: 8%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#home-part1-text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: 15%;
+}
+
+#blue {
+    color: #17a2b8;
+    font-size: 60px;
+    line-height: 45%;
+    font-weight: bolder;
+}
+
+#white1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#white2 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 5%;
+    font-weight: bolder;
+}
+
+#orange {
+    color: orange;
+    font-size: 60px;
+    line-height: 45%;
+    font-weight: bolder;
+}
+
+#green {
+    color: #28a745;
+    font-size: 60px;
+    line-height: 45%;
+    font-weight: bolder;
+}
+
+#home-text1 {
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-duration: 18s;
+    animation-name: home-text1;
+    position: absolute;
+    opacity: 0;
+}
+
+@keyframes home-text1 {
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    90% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#home-text2 {
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-duration: 18s;
+    animation-name: home-text2;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+}
+
+@keyframes home-text2 {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0;
+    }
+}
+
+#home-text3 {
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-duration: 18s;
+    animation-name: home-text3;
+    position: absolute;
+    opacity: 0;
+}
+
+@keyframes home-text3 {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#icon2 {
+
+    border-radius: 90px;
+    font-size: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 9px;
+    padding-left: 60px;
+    padding-right: 60px;
+    animation-name: icon2;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+
+@keyframes icon2 {
+    0% {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+    5% {
+        background-color: white;
+        color: #17a2b8;
+    }
+
+    10% {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+    15% {
+        background-color: white;
+        color: #17a2b8;
+    }
+
+    20% {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+    25% {
+        background-color: white;
+        color: #17a2b8;
+    }
+
+    30% {
+        background-color: orange;
+        color: white;
+    }
+
+    35% {
+        background-color: white;
+        color: orange;
+    }
+
+    40% {
+        background-color: orange;
+        color: white;
+    }
+
+    45% {
+        background-color: white;
+        color: orange;
+    }
+
+    50% {
+        background-color: orange;
+        color: white;
+    }
+
+    55% {
+        background-color: white;
+        color: orange;
+    }
+
+    60% {
+        background-color: white;
+        color: #28a745;
+    }
+
+    65% {
+        background-color: white;
+        color: #28a745;
+    }
+
+    70% {
+        background-color: #28a745;
+        color: white;
+    }
+
+    75% {
+        background-color: white;
+        color: #28a745;
+    }
+
+    80% {
+        background-color: #28a745;
+        color: white;
+    }
+
+    85% {
+        background-color: white;
+        color: #28a745;
+    }
+
+    90% {
+        background-color: #28a745;
+        color: white;
+    }
+
+    95% {
+        background-color: white;
+        color: #28a745;
+    }
+
+    100% {
+        background-color: white;
+        color: #17a2b8;
+    }
+}
+
+
+.img-go-self {
+    width: 200px;
+    height: 45px;
+}
+
+#go-self {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 30px;
+    width: 80%;
+    padding-right: 10%;
+    font-size: 20px;
+    color: rgb(75, 71, 71);
+}
+
+#all {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#img-all {
+    width: 450px;
+    height: 90px;
+}
+
+#home-conect {
+    background-image: url(./assets/הורדה\ \(15\).jpg);
+    width: 100%;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 28px;
+    margin-top: 20%;
+}
+
+#home-conect-a {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#home-send {
+    background-color: rgb(238, 27, 27);
+    border-radius: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+#home-title-b1 {
+    font-size: 45px;
+    font-weight: bolder;
+    color: rgb(75, 71, 71);
+    text-align: center;
+    margin-top: 10%;
+    line-height: 80px;
+}
+
+#home-title-b2 {
+    font-size: 25px;
+    color: rgb(75, 71, 71);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+#home-title-c-img {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 8%;
+}
+
+.home-title-c-img {
+    padding-top: 50px;
+    width: 280px;
+    z-index: 2;
+    position: absolute;
+    align-items: center;
+}
+
+.home-title-c-img1 {
+    padding-top: 50px;
+    height: 60px;
+    margin-top: 50px;
+    z-index: 3;
+    position: relative;
+    margin-right: 50%;
+    padding-bottom: 5%;
+}
+
+.home-title-c-img-text {
+    color: rgb(87, 86, 86);
+    font-size: 17px;
+    z-index: 3;
+    position: absolute;
+    margin-right: 60px;
+    text-align: center;
+    line-height: 150%;
+}
+
+#home-title-c-img2 {
+    width: 460px;
+    height: 270px;
+    padding-top: 17%;
+    padding-right: 35%;
+    z-index: 2;
+    position: absolute;
+}
+
+#home-title-c-img2-text1 {
+    font-size: 25px;
+    font-weight: bold;
+    z-index: 3;
+    position: relative;
+    display: flex;
+    text-align: center;
+    padding-top: 20%;
+    padding-right: 43%;
+}
+
+#home-title-c-img2-text2 {
+    font-size: 20px;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    padding-right: 5%;
+    text-align: center;
+    padding-top: 1%;
+    padding-right: 42%;
+    line-height: 150%;
+}
+
+
+#home-form-img {
+    width: 100%;
+    height: 60vh;
+    /* padding-top: 15%; */
+    margin-top: 15%;
+}
+
+#form {
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 33%;
+    z-index: 3;
+    position: absolute;
+    width: 30%;
+}
+
+#form-title1 {
+    font-size: 45px;
+    font-weight: bolder;
+    padding-top: 28%;
+    z-index: 3;
+    position: absolute;
+}
+
+#form-title2 {
+    font-size: 25px;
+    z-index: 3;
+    position: absolute;
+    padding-top: 34%;
+}
+
+#form-fill {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    position: absolute;
+    padding-top: 23%;
+    color: white;
+    padding-right: 42%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.label {
+    margin-right: 15%;
+}
+
+.form-home-li {
+    height: 30%;
+    font-size: 25px;
+}
+
+.input {
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    width: 220px;
+    margin-right: 4%;
+}
+
+.form-home-li div {
+    display: flex;
+
+}
+
+#form-send {
+    border-radius: 90px;
+    width: 250px;
+    height: 38px;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #cd2033;
+    font-size: 23px;
+    font-weight: bolder;
+    color: #fff;
+    padding: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 220%;
+}
+
+
+
+#home-part2 {
+    background-color: rgb(232, 231, 231);
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.home-title-c1 {
+    background-color: rgb(75, 71, 71);
+    width: 150px;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+
+}
+
+#home-part2-title {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(232, 231, 231);
+}
+
+#home-part2-text1 {
+    margin-left: 15%;
+}
+
+#home-part2-text2 {
+    margin-left: 15%;
+}
+
+.home-part2-img {
+    width: 350px;
+}
+
+#home-part2-a {
+    margin-left: 30px;
+}
+
+#home-part2-b {
+    margin-left: 30px;
+}
+
+
+#Opening-Hours {
+    color: rgb(18, 97, 121);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Opening-Hours-b {
+    font-weight: bolder;
+}
+
+#Opening-Hours-c {
+    font-size: 20px;
+}
+
+#bottom-part {
+    background-color: rgb(75, 71, 71);
+    color: white;
+    height: 250px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+#bottom-part-a {
+    font-size: 55px;
+}
+
+#bottom-part-b {
+    font-size: 30px;
+}
+
+#bottom-part-c {
+    font-size: 22px;
+}
+
+#bottom-part-nav {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    width: 80%;
+    padding-right: 10%;
+    color: white;
+}
+
+
+/* דף שני צרו קשר */
+
+#conect-part1 {
+    background-image: url(./assets/הורדה\ \(16\).jpg);
+    height: 210px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#conect-part1-text1 {
+    font-size: 45px;
+    padding-top: 35px;
+    font-weight: bolder;
+    margin-top: 6%;
+}
+
+#conect-part2-text {
+
+    text-align: center;
+    font-size: 32px;
+    padding-top: 35px;
+    color: rgb(75, 71, 71);
+    font-weight: bolder;
+}
+
+.conect-part2-img {
+    width: 180%;
+}
+
+#conect-part2-img1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+    margin-right: 19%;
+    width: 62%;
+
+}
+
+#conect-part2-img2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 62%;
+    padding-top: 30px;
+    margin-right: 19%;
+
+}
+
+.conect-part2-text1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(201, 33, 33);
+    border-radius: 20px;
+    font-size: 85%;
+    text-align: center;
+    width: 83%;
+    font-weight: bolder;
+    margin-top: 53%;
+    margin-right: 8%;
+    color: white;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+
+.conect-part2-text2 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(201, 33, 33);
+    border-radius: 20px;
+    font-size: 85%;
+    text-align: center;
+    width: 83%;
+    font-weight: bolder;
+    margin-top: 53%;
+    margin-right: 8%;
+    color: white;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+
+.conect-part2-img {
+    width: 300px;
+    height: 230px;
+}
+
+#conect-part2-a {
+    background-image: url(./assets/הורדה\ \(28\).png);
+}
+
+#conect-part2-a:hover {
+    background-image: url(./assets/הורדה\ \(34\).png);
+}
+
+#conect-part2-b {
+    background-image: url(./assets/הורדה\ \(29\).png);
+}
+
+#conect-part2-b:hover {
+    background-image: url(./assets/הורדה\ \(35\).png);
+}
+
+#conect-part2-c {
+    background-image: url(./assets/הורדה\ \(30\).png);
+}
+
+#conect-part2-c:hover {
+    background-image: url(./assets/הורדה\ \(36\).png);
+}
+
+#conect-part2-d {
+    background-image: url(./assets/הורדה\ \(31\).png);
+}
+
+#conect-part2-d:hover {
+    background-image: url(./assets/הורדה\ \(37\).png);
+}
+
+#conect-part2-e {
+    background-image: url(./assets/הורדה\ \(32\).png);
+}
+
+#conect-part2-e:hover {
+    background-image: url(./assets/הורדה\ \(38\).png);
+}
+
+#conect-part2-f {
+    background-image: url(./assets/הורדה\ \(33\).png);
+}
+
+#conect-part2-f:hover {
+    background-image: url(./assets/הורדה\ \(39\).png);
+}
+
+
+/* דף שלישי תמיכה טכנית */
+
+body {
+    direction: rtl;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#technical-part1 {
+    background-image: url(./assets/הורדה\ \(17\).jpg);
+    height: 160px;
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    padding-top: 50px;
+    font-weight: bolder;
+    margin-top: 6%;
+}
+
+.technical-ul {
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.technical-part2-center li {
+    width: 600px;
+}
+
+.technical-part2 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    line-height: 35px;
+    color: rgb(82, 78, 78);
+    width: 100%;
+    align-items: center;
+    background-color: rgb(230, 237, 243);
+}
+
+.triangular {
+    color: #216896;
+    padding-left: 2%;
+}
+
+.technical-part2-right {
+    color: rgb(171, 32, 32);
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+    width: 15%;
+    margin-right: 15%;
+    padding-bottom: 2%;
+}
+
+.technical-part2-right-img {
+    width: 60px;
+    padding-top: 3%;
+}
+
+.technical-part2-left-img {
+    width: 100px;
+    padding-top: 3%;
+}
+
+.technical-part2-left {
+    color: rgb(75, 71, 71);
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+    width: 20%;
+    padding-bottom: 2%;
+}
+
+.technical-part2-center {
+    display: flex;
+    align-items: center;
+}
+
+.technical-part2:nth-child(odd) {
+    background-color: white;
+}
+
+/* דף רביע אודות */
+body {
+    direction: rtl;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(75, 71, 71);
+    font-size: 25px;
+}
+
+.about-titels {
+    color: rgb(75, 71, 71);
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+
+#about1 {
+    background-image: url(./assets/הורדה\ \(18\).jpg);
+    height: 210px;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-weight: bolder;
+    padding-top: 3%;
+    margin-top: 6%;
+}
+
+#about2 {
+    padding-top: 3%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#about2-img {
+    margin-right: 27%;
+}
+
+#about3 {
+    background-color: rgb(45, 113, 158);
+    height: 780px;
+    display: flex;
+    justify-content: center;
+    line-height: 180%;
+}
+
+#about3-img {
+    width: 27%;
+    height: 80%;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+
+#about3-text {
+    color: white;
+    font-size: 25px;
+    width: 600px;
+    padding-right: 3%;
+    margin-top: 2%;
+}
+
+#title-bolder {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+#bolder1 {
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#bolder2 {
+    font-weight: bolder;
+    font-size: 28px;
+    margin-right: 28%;
+}
+
+#about4 {
+    margin-top: 5%;
+    line-height: 180%;
+}
+
+#about4-text1 {
+    text-align: right;
+    margin-right: 25%;
+
+}
+
+#about4-text2 {
+    text-align: right;
+    margin-right: 25%;
+    color: rgb(62, 94, 113);
+    font-weight: bolder;
+    padding-bottom: 5%;
+}
+
+#about5 {
+    background-color: rgb(246, 244, 244);
+    text-align: right;
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    line-height: 180%;
+}
+
+#about5-title {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#about5-img {
+    width: 120%;
+    padding-top: 20%;
+}
+
+#about5-text {
+    padding-right: 8%;
+    padding-top: 3%;
+}
+
+#about6-text {
+    text-align: right;
+    margin: 5%;
+}
+
+#about6 {
+    border: 2px solid rgb(215, 29, 29);
+    border-radius: 20px;
+    margin-right: 20%;
+    margin-top: 5%;
+    width: 80%;
+    border-left-style: none;
+    z-index: 2;
+    position: absolute;
+    line-height: 180%;
+
+}
+
+.bolder3 {
+    font-weight: bolder;
+}
+
+#about6-img {
+    z-index: 3;
+    position: relative;
+    margin-right: 60%;
+    margin-top: 25%;
+    width: 10px;
+    margin-bottom: 10%;
+}
+
+#about7 {
+    background-color: rgb(216, 19, 19);
+    border-radius: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 31%;
+    padding: 0.3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-weight: bolder;
+}
+
+
+/* דף חדש */
+
+#new1 {
+    margin-top: 10%;
+    color: rgb(72, 71, 71);
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#sumbit {
+    background-color: rgb(201, 33, 33);
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    width: 280px;
+    margin-top: 2%;
+    margin-right: 5%;
+    height: 45px;
+}
+
+#lines {
+    line-height: 200%;
+}
+
+#end1 {
+    margin-top: 10%;
+    color: rgb(72, 71, 71);
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}

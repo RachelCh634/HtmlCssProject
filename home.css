@@ -1,0 +1,7 @@
+Body{
+    direction: rtl;
+}
+.top nav{
+flex-wrap: nowrap;
+display: flex;
+}
